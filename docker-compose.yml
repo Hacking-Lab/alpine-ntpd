@@ -1,0 +1,13 @@
+version: '3.6'
+
+services:
+  alpine-ntpd:
+    build: .
+    image: hackinglab/alpine-ntpd:3.2
+    environment:
+    - TZ=Europe/Zurich
+    - AUTHOR=e1
+    - HL_USER_USERNAME=hacker
+    ports:
+      - 123:123
+
