@@ -1,5 +1,5 @@
 FROM hackinglab/alpine-base:3.2
-MAINTAINER Ivan Buetler <ivan.buetler@compass-security.com>
+LABEL maintainer="Ivan Buetler <ivan.buetler@hacking-lab.com>"
 
 # Install NTP
 RUN apk add --no-cache openntpd tzdata
