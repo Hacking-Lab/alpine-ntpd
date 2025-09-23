@@ -1,4 +1,4 @@
-FROM hackinglab/alpine-base:3.2
+FROM hackinglab/alpine-base-hl:3.2
 LABEL maintainer="Ivan Buetler <ivan.buetler@hacking-lab.com>"
 
 # Install NTP
